@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js'></script>
+    <link rel="stylesheet" href="./Calendar.css">
+    
+  </head>
+
+     <body>
+
+        <header>
+
+            <img class="logo" src="images/Sportradar logo.png" alt="logo">
+            <nav>
+              <ul class="nav-links">
+                <li><a href="./Matches.html">Details about Matches</a></li>
+              </ul>
+            </nav>
+          </header>
+
+       
+
+    <div id='calendar'></div>
+
+    <form id="match-form">
+
+      <label for="team1">Home Team:</label>
+      <input type="text" id="team1" ><br>
+
+      <label for="team2">Away Team:</label>
+      <input type="text" id="team2"><br>
+
+      <label for="date">Match Date:</label>
+      <input type="date" id="date"><br>
+
+      <button class="match-button" type="button">Add Match</button>
+    
+      <script src="./Calendar.js"></script>
+
+          </body>
+          
+        </html>
